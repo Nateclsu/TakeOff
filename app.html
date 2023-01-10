@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>TAKE OFF: A Coding Project By Nate Canterbury</title>
+    <title>App Name: A Coding Project By Nate Canterbury</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -37,7 +37,8 @@
             width="40"
             height="35"
           />
-          Take Off</a>
+          APP NAME</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -72,41 +73,8 @@
     </nav>
      <!-- ==== Main Section ==== -->
     <main class="flex-shrink-0">
-        <div class="container mt-5">
-          <div class="row row-cols-1 row-cols-lg-2">
-            <div class="col-lg-4 col border-end border-2">
-              <h1>TAKE OFF: A Coding Project</h1>
-              <h4 class="lead"> Live life one loop at a time. A javascript coding exercise using loops. <br>
-                Write a program that displays the numbers from 0 to 100. Display the <br>
-                even numbers in <strong>BOLD.</strong></h4>
-                <h2 class="mt-5 border-bottom border-2">Instructions</h2>
-                <p>Enter a starting value and a ending value. Press the button and the values will appear.</p>
-            </div>
-            <div class="col-lg-8 col">
-              <div>
-                <h5>Enter Values</h5>
-                <form class="row gy-2 gx-3">
-                  <div class="col">
-                    <input id="startValue" type="number" class="form-control" placeholder="Start Value" value="0" aria-label="Start Value">
-                  </div>
-                  <div class="col">
-                    <input id="endValue" type="number" class="form-control" placeholder="End Value" value="100" aria-label="End Value">
-                  </div>
-                  <div class="col-12 d-flex justify-content-end">
-                    <button id="btnSubmit" type="button" class="btn btn-dark btn-lg">Launch</button>
-                  </div>
-                </form>
-                <h2 class="mt-5 border-bottom border-2">Results</h2>
-                <div class="table-responsive">
-                  <table class="table table-striped table-sm">
-                    <tbody id="results">
-                      <!-- Results Go Here -->
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="container">
+
         </div>
     </main>
     <!-- ==== Footer Section ==== -->
@@ -163,8 +131,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/site.js"></script>
-    <script>
-      document.getElementById("btnSubmit").addEventListener("click", getValues);
-    </script>
   </body>
 </html>
