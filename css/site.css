@@ -5,6 +5,20 @@
     --white-color: #d9d9d9;
 }
 
+.odd {
+    font-weight: 100;
+}
+
+.even {
+    font-weight: bold;
+}
+
+.logoFont {
+    font-family: uniwars, sans-serif;
+    font-weight: 600;
+    font-style: italic;    
+}
+
 body {
     color: var(--dark-color)
 }
@@ -71,3 +85,4 @@ code[class*="language-"],
 .css3icon {
     color: #264de4;
 }
+
