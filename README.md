@@ -1,2 +1,1 @@
-# JavaScriptSiteTemplate
-Site Template for JS Projects
+# Take Off: A Coding Project
